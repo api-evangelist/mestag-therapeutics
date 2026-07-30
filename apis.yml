@@ -1,8 +1,26 @@
 aid: mestag-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mestag-therapeutics.png
 name: Mestag Therapeutics
-description: 'Mestag Therapeutics is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Mestag Therapeutics is a clinical-stage immunotherapy company based in Cambridge,
+  UK, developing new treatments for cancer and inflammatory diseases by targeting the
+  understudied role of activated fibroblasts in immune responses. Its lead cancer program,
+  MST-0312, is a targeted LTBR-agonist bispecific antibody designed to drive tertiary
+  lymphoid structure (TLS) formation in solid tumors and is now in the Phase I STARLYS
+  trial. Its inflammatory-disease program, M402, uses agonist antibodies against stromal
+  inhibitory receptors for conditions including rheumatoid arthritis, inflammatory bowel
+  disease, and lupus. Backed by GV, Mestag is a privately held biotech and does not
+  currently publish a public API, developer portal, or machine-readable API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/mestag-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Immunology
+- Immunotherapy
+- Oncology
+- Drug Discovery
+- Inflammatory Disease
+- Antibodies
+- Cambridge UK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://mestagtx.com
+  url: https://www.mestagtherapeutics.com/
+- type: Blog
+  url: https://www.mestagtherapeutics.com/news/
+- type: Support
+  url: https://www.mestagtherapeutics.com/contact/
+- type: PrivacyPolicy
+  url: https://www.mestagtherapeutics.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mestag-therapeutics/
+- type: Twitter
+  url: https://twitter.com/Mestagtx/
+- type: DomainSecurity
+  url: security/mestag-therapeutics-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
